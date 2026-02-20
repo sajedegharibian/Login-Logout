@@ -1,0 +1,88 @@
+<!-- <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/Style.css">
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="form-page">
+         <h2 id="title">Login</h2>
+      <form class="form">
+       
+        <div class="input-group" id="name-group">
+          <label for="name">Full Name</label>
+          <input type="text" name="name" id="name" />
+          <div id="nameError" class="error">Name is required</div>
+          </div>
+          <div class="input-group">
+            <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+          <div id="emailError" class="error">Enter a valid error</div>
+          </div>
+          <div class="input-group">
+            <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+          <div id="passwordError" class="error">Password must be at least 6 characters</div>
+          <span id="show-password" onclick="togglePassword()">Show Password</span>
+          </div>
+        <button type="submit" class="login-btn">Login</button>
+       <div class="success" id="successMsg"></div>
+      </form>
+      <div class="toggle">
+        <span id="toggle-text">Already have an account?</span>
+        <span href="Login.html" id="login-page" onclick="toggleForm()">Sign Up</span>
+      </div>
+       
+ </div>
+ <script src="JS/Main.js"></script>
+  </body>
+</html> -->
+
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="CSS/Style.css">
+<title>Login</title>
+</head>
+<body>
+<div class="form-page">
+<h2 id="title">Login</h2>
+<form class="form">
+
+<div class="input-group" id="nameGroup">
+<label for="name">Full Name</label>
+<input type="text" name="name" id="name" />
+<div id="nameError" class="error">Name is required</div>
+</div>
+
+<div class="input-group">
+<label for="email">Email</label>
+<input type="email" name="email" id="email" />
+<div id="emailError" class="error">Enter a valid email</div>
+</div>
+
+<div class="input-group">
+<label for="password">Password</label>
+<input type="password" name="password" id="password" />
+<div id="passwordError" class="error">Password must be at least 6 characters</div>
+<span id="show-password">Show Password</span>
+</div>
+
+<button type="submit" class="login-btn">Login</button>
+<div class="success" id="successMsg"></div>
+</form>
+
+<div class="toggle">
+<span id="toggle-text">Don't have an account?</span>
+<span id="signup-page">Sign Up</span>
+</div>
+</div>
+
+<script src="JS/Main.js"></script>
+</body>
+</html>
