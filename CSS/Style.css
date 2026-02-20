@@ -1,0 +1,108 @@
+:root{
+    --bg-color: rgb(63, 63, 160);
+    --hover-btn: rgb(15, 15, 102);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(3, 3, 54);
+}
+
+.form-page{
+    margin: 50px auto;
+    width: 380px;
+    padding: 30px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 20px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column; */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.form-page h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-group{
+  margin-bottom: 20px;
+}
+
+.input-group label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.input-group input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid rgb(150, 150, 150);
+    outline: none;
+}
+
+.input-group input:focus{
+    border-color: rgb(44, 44, 146);
+}
+
+#show-password{
+    color: rgb(63, 63, 160);
+    font-size: 14px;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.error{
+    font-size: 14px;
+    color: rgb(233, 27, 27);
+    text-align: center;
+}
+
+.login-btn{
+    width: 100%;
+    background-color: var(--bg-color);
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    margin: 15px 0;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all ease-in-out .2s;
+}
+
+.login-btn:hover{
+    background-color: var(--hover-btn);
+}
+
+
+.success{
+    color: rgb(9, 92, 30);
+    display: none;
+    text-align: center;
+}
+.toggle{
+    text-align: center;
+}
+
+#signup-page{
+    color: var(--bg-color);
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+#login-page:hover{
+    color: var(--hover-btn);
+}
